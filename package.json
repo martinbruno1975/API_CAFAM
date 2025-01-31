@@ -1,0 +1,16 @@
+{
+  "name": "api_cafam",
+  "version": "1.0.0",
+  "description": "API CAFAM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Bruno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
