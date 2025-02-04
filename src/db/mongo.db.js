@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 const MONGO_URL =
   process.env.MONGO_URL ??
   //"mongodb://admin:admin1234@localhost:27017/productos?authSource=admin"
-  "mongodb://localhost:27017/"
+  "mongodb://localhost:27017/motosnac_cafam"
 
 async function connectToDatabase() {
   try {
